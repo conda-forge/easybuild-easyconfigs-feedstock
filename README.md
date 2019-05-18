@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About easybuild-easyconfigs
 ===========================
 
@@ -18,9 +14,47 @@ Summary: Easyconfig files are simple build specification files for EasyBuild,\nt
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/easybuild-easyconfigs-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/easybuild-easyconfigs-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/easybuild-easyconfigs-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/easybuild-easyconfigs-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+
+<table>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4628&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/easybuild-easyconfigs-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4628&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/easybuild-easyconfigs-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4628&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/easybuild-easyconfigs-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
