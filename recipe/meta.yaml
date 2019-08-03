@@ -1,4 +1,4 @@
-{% set version = "3.9.2" %}
+{% set version = "3.9.3" %}
 
 package:
   name: easybuild-easyconfigs
@@ -7,7 +7,7 @@ package:
 source:
   fn: easybuild-easyconfigs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyconfigs/easybuild-easyconfigs-{{ version }}.tar.gz
-  sha256: d143e4ff0f2622b49babe865ca9468a3557dd2cb6825e2a96760e77e237152b4
+  sha256: 4ffe31e459e14c3c429d4c55718da678f66fdee5691752d0ca5a1106086d42f5
 
 build:
   number: 0
