@@ -1,4 +1,4 @@
-{% set version = "3.9.3" %}
+{% set version = "4.3.1" %}
 
 package:
   name: easybuild-easyconfigs
@@ -7,11 +7,11 @@ package:
 source:
   fn: easybuild-easyconfigs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyconfigs/easybuild-easyconfigs-{{ version }}.tar.gz
-  sha256: 4ffe31e459e14c3c429d4c55718da678f66fdee5691752d0ca5a1106086d42f5
+  sha256: 7892a3c9d2fc4c069941bce751858133fd57ab1f09f0ae69194ac034f8304336
 
 build:
-  number: 1
-  skip: True  # [win or py3k]
+  number: 0
+  skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -31,7 +31,7 @@ about:
   home: http://hpcugent.github.com/easybuild
   license: GPL-2.0
   license_file: LICENSE
-  summary: 'Easyconfig files are simple build specification files for EasyBuild,\nthat specify the build parameters for software packages (version, compiler toolchain, dependency versions, etc.).'
+  summary: Easyconfig files are simple build specification files for EasyBuild,\nthat specify the build parameters for software packages (version, compiler toolchain, dependency versions, etc.).
   license_family: GPL2
 
 extra:
