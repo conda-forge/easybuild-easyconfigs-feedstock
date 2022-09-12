@@ -1,4 +1,4 @@
-{% set version = "4.6.0" %}
+{% set version = "4.6.1" %}
 
 package:
   name: easybuild-easyconfigs
@@ -7,10 +7,10 @@ package:
 source:
   fn: easybuild-easyconfigs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyconfigs/easybuild-easyconfigs-{{ version }}.tar.gz
-  sha256: 21e1a3681343708ceb3dbf895997de54706ec72fa7c79d17454a44720f298413
+  sha256: 14eb71e3ebac6c27f5000e450b8d6cf2c83f0a508558d06189314e1051f6be46
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
