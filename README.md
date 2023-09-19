@@ -1,11 +1,11 @@
-About easybuild-easyconfigs
-===========================
+About easybuild-easyconfigs-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easybuild-easyconfigs-feedstock/blob/main/LICENSE.txt)
 
 Home: http://hpcugent.github.com/easybuild
 
 Package license: GPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easybuild-easyconfigs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easyconfig files are simple build specification files for EasyBuild,\nthat specify the build parameters for software packages (version, compiler toolchain, dependency versions, etc.).
 
